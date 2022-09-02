@@ -1,0 +1,125 @@
+.맨위 {
+  display: block;
+  position: relative;
+  text-align: center;
+  min-width: 1050px;
+  border-bottom: 0px;
+  background: rgb(90, 0, 125);
+  text-align: center;
+  font-size: 14px;
+  line-height: 42px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#info {
+  width: 100%;
+}
+#회원가입 {
+  height: 64px;
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  padding-top: 36px;
+}
+.배너 {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  font-size: 12px; 
+  height: 35px;
+  top: 0px;
+  right: 0px;
+  }
+
+
+.배너 .가입 {
+  color: rgb(90, 0, 125);
+  cursor: pointer;
+  width: 42.97px;
+  height: 13.8px;
+}
+.배너 .가입::after {
+  background-color: rgb(215, 215, 215);
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 13px;
+  margin: 0 12px;
+}
+.배너 .로그인 {
+  width: 32.23px;
+  height: 13.8px;
+  margin-left: 23px;
+}
+.배너 .로그인::after {
+  background-color: rgb(215, 215, 215);
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 13px;
+  margin: 0 12px;
+}
+.배너 .질문 {
+  width: 55.97px;
+  height: 35px;
+  margin-left: 23px;
+  position: relative;
+  line-height: 33px;
+}
+.배너 img {
+  width: 8px;
+  height: 5px;
+}
+.로고 {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+.로고이미지 {
+  display: flex;
+  align-items: center;
+}
+.로고 .로고폰트 {
+  display: flex;
+  align-items: center;
+}
+.로고 .로고폰트 .마켓컬리 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  color: rgb(95, 0, 128);
+  font-weight: 500;
+  margin-left: 20px;
+}
+.로고 .로고폰트 .마켓컬리::after {
+  background-color: rgb(226, 226, 226);
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 14px;
+  margin-top: 5px;
+  margin-left: 11px;
+}
+
+.로고 .로고폰트 .뷰티컬리 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  color: rgb(181, 181, 181);
+  font-weight: 500;
+  margin-left: 20px;
+  position: relative;
+}
+.로고 .로고폰트 .뷰티컬리:hover {
+  color: rgb(95, 0, 128);
+}
+.로고 .n사진 {
+  margin-bottom: 5px;
+}
+
